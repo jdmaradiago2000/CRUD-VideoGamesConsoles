@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD-VideoGamesConsoles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51c7bc8978e8071bafdddac9776639fdef11bf37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c479e571dae9d01d771c91d59e2ea49094698481")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD-VideoGamesConsoles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD-VideoGamesConsoles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
