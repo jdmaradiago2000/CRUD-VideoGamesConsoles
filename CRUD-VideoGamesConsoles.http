@@ -1,0 +1,6 @@
+@CRUD_VideoGamesConsoles_HostAddress = http://localhost:5172
+
+GET {{CRUD_VideoGamesConsoles_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
