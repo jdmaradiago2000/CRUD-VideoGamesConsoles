@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CRUD_VideoGamesConsoles.Models
 {
-    public class Console
+    public class GameConsole
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ConsoleID { get; set; }
+        public int GameConsoleID { get; set; }
 
         public string Name { get; set; }
 

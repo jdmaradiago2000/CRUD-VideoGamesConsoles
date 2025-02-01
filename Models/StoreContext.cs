@@ -9,7 +9,7 @@ namespace CRUD_VideoGamesConsoles.Models
 
         }
 
-        public DbSet<Console> Consoles { get; set; }
+        public DbSet<GameConsole> GameConsoles { get; set; }
         public DbSet<Brand> Brands { get; set; }
 
     }
