@@ -32,7 +32,8 @@ namespace CRUD_VideoGamesConsoles.Controllers
         {
             var gameConsole = await _context.GameConsoles.FindAsync(id);
 
-            if (gameConsole == null) return NotFound();
+            if (gameConsole == null)
+                return NotFound();
 
             var gameConsoleDto = new GameConsoleDto
             {
@@ -75,7 +76,8 @@ namespace CRUD_VideoGamesConsoles.Controllers
         {
             var gameConsole = await _context.GameConsoles.FindAsync(id);
 
-            if (gameConsole == null) return NotFound();
+            if (gameConsole == null)
+                return NotFound();
 
             gameConsole.Name = gameConsoleUpdateDto.Name;
             gameConsole.BrandID = gameConsoleUpdateDto.BrandID;
@@ -91,6 +93,22 @@ namespace CRUD_VideoGamesConsoles.Controllers
             };
 
             return Ok(gameConsoleDto);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            var gameConsole = await _context.GameConsoles.FindAsync(id);
+
+            if (gameConsole == null)
+            {
+                return NotFound();
+            }
+
+            _context.GameConsoles.Remove(gameConsole);
+            await _context.SaveChangesAsync();
+
+            return Ok(gameConsole);
         }
 
     }
