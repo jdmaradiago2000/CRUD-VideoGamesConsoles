@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\validators\\gameconsoleinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:validators\\gameconsoleinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\models\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:models\\gameconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\validators\\gameconsoleupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:validators\\gameconsoleupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\dtos\\gameconsoleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:dtos\\gameconsoleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\dtos\\gameconsoledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:dtos\\gameconsoledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\dtos\\gameconsoleinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:dtos\\gameconsoleinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameConsoleDto.cs",
-              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\DTOs\\GameConsoleDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\GameConsoleDto.cs",
-              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\DTOs\\GameConsoleDto.cs",
-              "RelativeToolTip": "DTOs\\GameConsoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GameConsolesController.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Controllers\\GameConsolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GameConsolesController.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Controllers\\GameConsolesController.cs",
+              "RelativeToolTip": "Controllers\\GameConsolesController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T16:51:55.483Z",
+              "WhenOpened": "2025-02-04T17:38:24.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameConsoleInsertDto.cs",
-              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\DTOs\\GameConsoleInsertDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\GameConsoleInsertDto.cs",
-              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\DTOs\\GameConsoleInsertDto.cs",
-              "RelativeToolTip": "DTOs\\GameConsoleInsertDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T16:51:53.77Z",
+              "WhenOpened": "2025-02-04T17:37:44.316Z",
               "EditorCaption": ""
             },
             {
@@ -66,35 +66,35 @@
               "RelativeDocumentMoniker": "DTOs\\GameConsoleUpdateDto.cs",
               "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\DTOs\\GameConsoleUpdateDto.cs",
               "RelativeToolTip": "DTOs\\GameConsoleUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T16:51:43.272Z",
+              "WhenOpened": "2025-02-04T17:36:28.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameConsole.cs",
-              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Models\\GameConsole.cs",
-              "RelativeDocumentMoniker": "Models\\GameConsole.cs",
-              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Models\\GameConsole.cs",
-              "RelativeToolTip": "Models\\GameConsole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Title": "GameConsoleUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Validators\\GameConsoleUpdateValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\GameConsoleUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Validators\\GameConsoleUpdateValidator.cs",
+              "RelativeToolTip": "Validators\\GameConsoleUpdateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T20:48:38.136Z",
+              "WhenOpened": "2025-02-04T17:24:45.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameConsolesController.cs",
-              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Controllers\\GameConsolesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GameConsolesController.cs",
-              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Controllers\\GameConsolesController.cs",
-              "RelativeToolTip": "Controllers\\GameConsolesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Title": "GameConsoleInsertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Validators\\GameConsoleInsertValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\GameConsoleInsertValidator.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Validators\\GameConsoleInsertValidator.cs",
+              "RelativeToolTip": "Validators\\GameConsoleInsertValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T19:29:45.73Z",
+              "WhenOpened": "2025-02-04T16:58:43.618Z",
               "EditorCaption": ""
             }
           ]

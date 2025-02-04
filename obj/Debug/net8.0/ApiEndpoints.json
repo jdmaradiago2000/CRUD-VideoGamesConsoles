@@ -101,5 +101,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "CRUD_VideoGamesConsoles.Controllers.GameConsolesController",
+    "Method": "Delete",
+    "RelativePath": "api/GameConsoles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

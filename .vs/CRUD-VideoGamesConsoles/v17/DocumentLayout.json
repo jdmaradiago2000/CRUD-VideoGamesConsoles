@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:controllers\\gameconsolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\services\\igameconsoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:services\\igameconsoleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|c:\\users\\jmara\\documents\\personal projects\\crud-videogamesconsoles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CDD25A-A75E-4AA8-935C-1C6CE3E10D13}|CRUD-VideoGamesConsoles.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +32,35 @@
               "RelativeDocumentMoniker": "Controllers\\GameConsolesController.cs",
               "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Controllers\\GameConsolesController.cs",
               "RelativeToolTip": "Controllers\\GameConsolesController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwG8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAywCwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T19:29:45.73Z",
+              "WhenOpened": "2025-02-04T18:39:02.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGameConsoleService.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Services\\IGameConsoleService.cs",
+              "RelativeDocumentMoniker": "Services\\IGameConsoleService.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Services\\IGameConsoleService.cs",
+              "RelativeToolTip": "Services\\IGameConsoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T18:35:05.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jmara\\Documents\\Personal Projects\\CRUD-VideoGamesConsoles\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:37:44.316Z",
               "EditorCaption": ""
             }
           ]

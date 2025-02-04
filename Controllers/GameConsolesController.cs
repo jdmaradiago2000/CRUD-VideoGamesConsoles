@@ -3,6 +3,7 @@ using CRUD_VideoGamesConsoles.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation;
 
 namespace CRUD_VideoGamesConsoles.Controllers
 {
@@ -11,12 +12,19 @@ namespace CRUD_VideoGamesConsoles.Controllers
     public class GameConsolesController :ControllerBase
     {
         private StoreContext _context;
+        private IValidator<GameConsoleInsertDto> _gameConsoleInsertValidator;
+        private IValidator<GameConsoleUpdateDto> _gameConsoleUpdateValidator;
 
-        public GameConsolesController(StoreContext context)
+        public GameConsolesController(StoreContext context, IValidator<GameConsoleInsertDto> gameConsoleInsertValidator, IValidator<GameConsoleUpdateDto> gameConsoleUpdateValidator)
         {
             _context = context;
+            _gameConsoleInsertValidator = gameConsoleInsertValidator;
+            _gameConsoleUpdateValidator = gameConsoleUpdateValidator;
+
         }
 
+
+        //Method HTTP Get
         [HttpGet]
         public async Task<IEnumerable<GameConsoleDto>> Get() =>
             await _context.GameConsoles.Select(gameConsole => new GameConsoleDto
@@ -27,6 +35,8 @@ namespace CRUD_VideoGamesConsoles.Controllers
                 Teraflops = gameConsole.Teraflops
             }).ToListAsync();
 
+
+        //Method HTTP Get by id
         [HttpGet("{id}")]
         public async Task<ActionResult<GameConsoleDto>> GetById(int id)
         {
@@ -46,9 +56,18 @@ namespace CRUD_VideoGamesConsoles.Controllers
             return Ok(gameConsoleDto);
         }
 
+
+        //Method HTTP Post
         [HttpPost]
         public async Task<ActionResult<GameConsoleDto>> Add(GameConsoleInsertDto gameConsoleInsertDto)
         {
+            var validationResult = await _gameConsoleInsertValidator.ValidateAsync(gameConsoleInsertDto);
+
+            if(!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
             var gameConsole = new GameConsole()
             {
                 Name = gameConsoleInsertDto.Name,
@@ -71,9 +90,19 @@ namespace CRUD_VideoGamesConsoles.Controllers
 
         }
 
+
+        //Method HTTP Put
         [HttpPut("{id}")]
         public async Task<ActionResult<GameConsoleDto>> Update(int id, GameConsoleUpdateDto gameConsoleUpdateDto)
         {
+            var validationResult = await _gameConsoleUpdateValidator.ValidateAsync(gameConsoleUpdateDto);
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
+
             var gameConsole = await _context.GameConsoles.FindAsync(id);
 
             if (gameConsole == null)
@@ -95,6 +124,8 @@ namespace CRUD_VideoGamesConsoles.Controllers
             return Ok(gameConsoleDto);
         }
 
+
+        //Method HTTP Delete
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

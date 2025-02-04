@@ -335,3 +335,4 @@ C:\Users\jmara\Documents\Personal Projects\CRUD-VideoGamesConsoles\obj\Debug\net
 C:\Users\jmara\Documents\Personal Projects\CRUD-VideoGamesConsoles\obj\Debug\net8.0\CRUD-VideoGamesConsoles.pdb
 C:\Users\jmara\Documents\Personal Projects\CRUD-VideoGamesConsoles\obj\Debug\net8.0\CRUD-VideoGamesConsoles.genruntimeconfig.cache
 C:\Users\jmara\Documents\Personal Projects\CRUD-VideoGamesConsoles\obj\Debug\net8.0\ref\CRUD-VideoGamesConsoles.dll
+C:\Users\jmara\Documents\Personal Projects\CRUD-VideoGamesConsoles\bin\Debug\net8.0\FluentValidation.dll
