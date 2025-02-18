@@ -1,8 +1,12 @@
+using CRUD_VideoGamesConsoles.Automappers;
 using CRUD_VideoGamesConsoles.DTOs;
 using CRUD_VideoGamesConsoles.Models;
+using CRUD_VideoGamesConsoles.Repository;
+using CRUD_VideoGamesConsoles.Services;
 using CRUD_VideoGamesConsoles.Validators;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +20,13 @@ builder.Services.AddDbContext<StoreContext>(options =>
 //validators
 builder.Services.AddScoped<IValidator<GameConsoleInsertDto>, GameConsoleInsertValidator>();
 builder.Services.AddScoped<IValidator<GameConsoleUpdateDto>, GameConsoleUpdateValidator>();
+builder.Services.AddKeyedScoped<ICommonService<GameConsoleDto, GameConsoleInsertDto, GameConsoleUpdateDto>, GameConsoleService>("gameConsoleService");
+
+//Mappers
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+//Repository
+builder.Services.AddScoped<IRepository<GameConsole>, GameConsoleRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
