@@ -89,9 +89,11 @@ namespace CRUD_VideoGamesConsoles.Services
 
             if (gameConsole != null)
             {
-                gameConsole.Name = gameConsoleUpdateDto.Name;
-                gameConsole.BrandID = gameConsoleUpdateDto.BrandID;
-                gameConsole.Teraflops = gameConsoleUpdateDto.Teraflops;
+                gameConsole = _mapper.Map<GameConsoleUpdateDto, GameConsole>(gameConsoleUpdateDto, gameConsole);
+
+                //gameConsole.Name = gameConsoleUpdateDto.Name;
+                //gameConsole.BrandID = gameConsoleUpdateDto.BrandID;
+                //gameConsole.Teraflops = gameConsoleUpdateDto.Teraflops;
 
                 _gameConsoleRepository.Update(gameConsole);
                 await _gameConsoleRepository.Save();
